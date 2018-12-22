@@ -19,6 +19,7 @@ public class Message {
     private int pid;
 
     //留言属性 normal 为 1 ， secrte 为 2，Hide为3，这个应该是不写在这儿的...上课想起来晚上回去改
+    //好吧，我send写的方式不好改...写的方式和学长给我讲的不大一样:（
     private int type;
     private static final  int Normal =1;
     private static final  int Secret =2;

@@ -18,7 +18,7 @@ public class Message {
     //父节点的id
     private int pid;
 
-    //留言属性 normal 为 1 ， secrte 为 2
+    //留言属性 normal 为 1 ， secrte 为 2，Hide为3，这个应该是不写在这儿的...上课想起来晚上回去改
     private int type;
     private static final  int Normal =1;
     private static final  int Secret =2;
